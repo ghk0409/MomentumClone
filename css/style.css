@@ -1,0 +1,182 @@
+.hidden {
+    display: none;
+}
+
+#bgImg {
+    position:absolute;
+    left:0;
+    top:0;
+	max-width:100%;
+    min-width:1920px;;
+    max-height:1080px;
+    min-height:900px;
+    z-index:-5;
+    filter: brightness(60%);
+}
+
+body {
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+/* login form 영역 */
+#login-form{
+    text-align:center;
+    color:white;
+    margin:0 auto;
+}
+#login-form input[type=text]{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color:white;
+    font-size:40px;
+    padding: 10px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.2);
+    border:none;
+    transition: all, 0.4s;
+}
+#login-form input[type=text]:hover{
+    background-color: rgba(255,255,255,0.4);
+}   
+#login-form input:hover::-webkit-input-placeholder{
+    color: rgb(50, 50, 50);
+}
+#login-form input[type=text]:focus{
+    outline:none;
+    border-bottom: 1px solid white;
+    background-color:rgba(0,0,0,0);
+}
+
+#login-form input[type=submit]{
+    margin-left:20px;
+    width:150px;
+    height:50px;
+    border-radius: 30px;
+    border:none;
+    background-color:rgba(255,255,255,0.6);
+    color: rgb(80,80,80);
+    font-size:25px;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    outline: none;
+    cursor: pointer;
+    transition: all, 0.4s;
+}
+#login-form input[type=submit]:hover{
+    background-color:rgba(255,255,255,0.8)
+}
+#login-form input[type=submit]:active{
+    background-color:darkgray;
+    color:white;
+    outline: none;
+} 
+
+/* greeting */
+#greeting{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+#greeting:hover{
+    color:rgb(63, 236, 141);
+}
+
+/* clock */
+#clock{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+}
+
+#clock:hover{
+    color:rgb(63, 236, 141);
+}
+
+/* todo 리스트 form */
+#todo-form{
+    text-align: center;
+    margin-top:0px;
+}
+#todo-form input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color:white;
+    font-size:30px;
+    width: 540px;
+    height:40px;
+    background-color: rgba(255,255,255,0.1);
+    font-weight: 500;
+    border:none;
+    margin-bottom:20px;
+    margin-top:200px;
+    transition: all, 0.4s;
+}
+
+/* todo 리스트 항목 */
+#todo-list{
+    text-align: center;
+}
+#todo-list li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    color:rgba(250,250,250,0.8);
+    margin-top:40px;
+    margin-bottom:50px;
+    font-size:40px;
+    width:540px;
+    margin: 0 auto;
+}
+#todo-list li button{
+    vertical-align: text-bottom;
+    margin-left:20px;
+    width:40px;
+    height:40px;
+    border-radius: 30px;
+    border:none;
+    border-bottom: 10px;
+    background-color:rgba(255,255,255,0.6);
+    color: rgb(80,80,80);
+    font-size:20px;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    outline: none;
+    cursor: pointer;
+    transition: all, 0.4s;
+}
+#todo-list li button:hover{
+    background-color:rgba(255,255,255,0.8)
+}
+#todo-list li button:active{
+    background-color:darkgray;
+    color:white;
+    outline: none;
+} 
+
+/* weather 영역 */
+#weather{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position:fixed;
+    top:20px;
+    right:36px;
+    color:white;
+    font-size:25px;
+    font-weight: 700;
+}
+
+#weather:hover{
+    color:rgb(63, 236, 141);
+}
+
+/* quote 영역 */
+#quote{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: antiquewhite;
+}
